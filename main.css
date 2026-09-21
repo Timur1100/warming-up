@@ -310,16 +310,16 @@ align-items:center;
 
 }
 .info,.infoA,.infoS {
-  width: 90%;
+  width: 80%;
 }
 .interests,.interestsA,.interestsS {
- width: 90%;
+ width: 80%;
 }
 .links,.linksA,.linkS {
-  width: 90%;
+  width: 80%;
 }
 .buttonS{
-  width: 90%;
+  width: 80%;
 }
 * {
     box-sizing: border-box;
