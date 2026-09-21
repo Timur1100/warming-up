@@ -302,8 +302,49 @@ transition: 0.2s;
 }
 
 @media (max-width: 600px) {
+
     body {
-        background: red;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
     }
+
+    .RejA,
+    .allA,
+    .shinji {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info,
+    .infoA,
+    .infoS,
+    .interests,
+    .interestsA,
+    .interestsS,
+    .links,
+    .linksA,
+    .linksS {
+        width: 90%;
+        box-sizing: border-box;
+    }
+
+    .Button,
+    .ButtonA,
+    .buttonS {
+        width: 90%;
+        box-sizing: border-box;
+    }
+
+    #ajanami,
+    #Aska,
+    #shinjiI {
+        max-width: 90%;
+        height: auto;
+    }
+
+}
 }
 
