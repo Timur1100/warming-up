@@ -394,16 +394,11 @@ transition: 0.2s;
         overflow-wrap: break-word;
     }
 
-
-
  
- .zadniFon,
-    .cartoczka,
-    .closeButten {
+.cartoczka {
     max-width: 100%;
-        overflow-wrap: break-word;
-    }
-
+    overflow-wrap: break-word;
+}
 
  
 }
