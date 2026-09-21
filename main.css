@@ -1,73 +1,93 @@
-.info {
+ body {
+    font-family: 'Gloria Hallelujah', cursive;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    
+}
+ .background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    z-index: -1;
+}
+ 
+ 
+ .info {
+  background-color: rgba(172, 167, 167, 0.404);
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
     padding:10px;
     width:450px;
-    border-radius:10px;
+    height:591px;
+    border-radius:15px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+  margin-top:20px;
 }
 
 
 .interests {
+  background-color: rgba(172, 167, 167, 0.404);
      display:flex;
     flex-direction:column;
       justify-content:center;
     align-items:center;
     padding:10px;
     width:450px;
-    border-radius:10px;
+    height:174px;
+    border-radius:15px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
     margin-top:20px;
 }
 
 .links {
+background-color: rgba(172, 167, 167, 0.404);
   display:flex;
     flex-direction:column;
       justify-content:center;
     align-items:center;
     padding:10px;
     width:450px;
-    border-radius:10px;
+    height:174px;
+    border-radius:15px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
     margin-top:20px;
 
 }
 
- body{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    font-family: 'Gloria Hallelujah', cursive;
-    
-    
- }
+ 
 
  .Button {
-    font-family: 'Gloria Hallelujah', cursive;
-color:black;
-border:1px solid grey;
-border-radius:15px;
-margin-top:15px;
-width:450px;
-display:flex;
-justify-content:center;
-align-items:center;
-transition: transform 0.4s ease;
+  background-color: rgba(172, 167, 167, 0.404);
+   font-family: 'Gloria Hallelujah', cursive;
+  width:468px;
+  border-radius:15px;
+  margin-top:15px;
  }
 
 .Button:hover
  {
-   transform:translateY(-2px);
+   transform:translateY(-1px);
    cursor: pointer;
 }
 
  #ajanami {
-    border-radius:15px;
+   height:396px;
+  width: 300px;
+    border-radius:20px;
 padding:10px;
-border-radius:15px
+
+ 
  }
 
   .links a {
@@ -80,3 +100,180 @@ border-radius:15px
     cursor:pointer;
   transform:translateY(-2px);
   }
+
+
+
+
+
+
+
+
+
+  .infoA {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 439px;
+    height:582px;
+background-color: rgba(172, 167, 167, 0.404);
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    padding: 15px;
+    margin-top: 20px;
+    align-items: center;
+  }
+
+  #Aska {
+    
+  border-radius:20px;
+    width: 450px;
+    height:351px;
+  }
+
+  .interestsA {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    width: 448px;
+    height:174px;
+    padding: 10px;
+    margin-top: 20px;
+    align-items: center;
+   background-color: rgba(172, 167, 167, 0.404);
+  }
+
+  .linksA {
+    background-color: rgba(172, 167, 167, 0.404);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    margin-top: 20px;
+    width: 428px;
+     height:153.5px;
+  }
+
+  .ButtonA {
+ font-family: 'Gloria Hallelujah', cursive;
+  width:468px;
+  border-radius:15px;
+  margin-top:15px;
+   background-color: rgba(172, 167, 167, 0.404);
+  }
+
+  .ButtonA:hover{
+    transform:translateY(-1px);
+   cursor: pointer;
+  }
+ 
+
+
+.linksA a{
+   text-decoration: none;
+   color: black;
+   transition: transform 0.4s ease;
+}
+
+.linksA a:hover{
+   transform:translateY(-2px);
+}
+
+
+
+
+
+
+
+
+
+.infoS {
+  background-color: rgba(172, 167, 167, 0.404);
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+padding:10px;
+margin-top:20px;
+width:450px;
+border-radius:15px;
+box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+
+
+
+
+
+
+}
+
+
+
+#shinjiI {
+  height:308px;
+width:409.5px;
+border-radius:20px
+}
+
+.interestsS {
+
+ display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    width: 448px;
+    height:174px;
+    padding: 10px;
+    margin-top: 20px;
+    align-items: center;
+    background-color: rgba(172, 167, 167, 0.404);
+
+
+}
+
+.linksS{
+background-color: rgba(172, 167, 167, 0.404);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    margin-top: 20px;
+    width: 428px;
+     height:153.5px;
+}
+
+
+
+.linksS a{
+
+text-decoration: none;
+   color: black;
+   transition: transform 0.4s ease;
+
+
+}
+
+.linksS a:hover{
+  cursor:pointer;
+  transform:translateY(-2px)
+}
+
+.buttonS {
+  font-family: 'Gloria Hallelujah', cursive;
+  width:468px;
+  border-radius:15px;
+  margin-top:15px;
+  background-color: rgba(172, 167, 167, 0.404);
+}
+
+.buttonS:hover{
+  transform:translateY(-1px);
+   cursor: pointer;
+}
