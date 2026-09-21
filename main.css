@@ -303,26 +303,3 @@ transition: 0.2s;
 
 
 
-@media (max-width:600px){
-body{
-flex-direction:column;
-align-items:center;
-
-}
-.info,.infoA,.infoS {
-  width: 85%;
-}
-.interests,.interestsA,.interestsS {
- width: 85%;
-}
-.links,.linksA,.linkS {
-  width: 85%;
-}
-.buttonS{
-  width: 85%;
-}
-* {
-    box-sizing: border-box;
-}
-
-}
