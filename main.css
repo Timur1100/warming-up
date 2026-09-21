@@ -400,10 +400,8 @@ transition: 0.2s;
  .zadniFon,
     .cartoczka,
     .closeButten {
-       width: calc(100% - 30px);
-        height: auto;
-        min-height: 174px;
-        box-sizing: border-box;
+    max-width: 100%;
+        overflow-wrap: break-word;
     }
 
 
